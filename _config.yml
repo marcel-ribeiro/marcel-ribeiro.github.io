@@ -27,12 +27,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: "marcel-ribeiro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://marcel-ribeiro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  marcel-ribeiro
+
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/marcelserraribeiro
+  - title: github
+    url: http://github.com/marcel-ribeiro
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +58,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+keywords: "Marcel, Ribeiro, Software, Manager, Engineer, Engineering"
+google-tracking-id:
+
+# Career Settings
+# Default career thumbnail image.
+career-img: "img/timeline/default.jpg"
+
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
