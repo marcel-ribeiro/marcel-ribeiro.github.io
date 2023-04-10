@@ -1,0 +1,21 @@
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="intro-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="brand-heading">&nbsp;</h1>
+                            <p class="intro-text">{{ content }}</p>
+                            {% capture title %}{% for page in site.pages | sort: "title" %}{% if page.url != "/index.html" and page.url != "/" and page.url != "/404.html" %}{{page.title}}{% break %}{% endif %}{% endfor %}{% endcapture %}
+                            <a href="#{{ title }}" class="btn btn-circle page-scroll">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="particles-js"></div>
+
+        </div>
+    </header>
