@@ -5,4 +5,4 @@ company: Citigroup
 position: Senior Software Developer
 image: "img/timeline/logo-citigroup.png"
 ---
-Developed a multi-threaded system used internally by Citigroup to create trading orders with several strategic settings and submit the orders to the Stock Exchanges.
+Developed data-driven multi-threaded systems used internally by Citigroup to automatically create and submit trading orders based on pre-defined and customizable strategic settings automatically.
