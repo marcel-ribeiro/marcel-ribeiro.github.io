@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Montserrat,Helvetica,"Helvetica Neue",Georgia,Arial,sans-serif;
     color: #fff;
-    background-color: #000;
+    background-color: #0a192f;
 }
 
 html {
@@ -45,8 +45,7 @@ p {
 }
 
 a {
-    color: #fed136;
-    /* color: #219ab3; */
+    color: #64ffda;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -68,7 +67,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #0a192f;
 }
 
 .navbar-custom .navbar-brand {
@@ -125,7 +124,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #0a192f;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -140,7 +139,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background-color: #000;
+    background-color: #0a192f;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -267,7 +266,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background-color: #000;
+    background-color: #0a192f;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -310,7 +309,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid #219ab3;
     outline: 0;
-    color: #000;
+    color: #0a192f;
     background-color: #219ab3;
 }
 
